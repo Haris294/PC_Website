@@ -1,0 +1,57 @@
+body{
+    background-size: 100%;
+    background-color: #f3f3f3;
+    width: 100%;
+}
+
+h2{
+	text-align: center;
+	color: #8c0f88;
+	padding:0;
+  margin-top: 30px;
+}
+.question {
+	padding-left: 80px;
+  margin-top: 110px;
+}
+#button{
+	text-align: center;
+	margin:0 auto;
+	display: block;
+    border:none;
+    outline: none;
+    height: 40px;
+    background:green;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+
+
+}
+#quiz-time-left{
+  text-align: right;
+  position: relative;
+  color: red;
+  font-size: 20px;
+  font-style: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+
+
+}
+#button input[type="submit"]:hover{
+    cursor: pointer;
+    background:blue;
+    color: black; 
+    
+}
+
+.navbar, #quiz-time-left{
+    overflow: hidden;
+    background-color: #cfd3d3;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    margin-right: 20px;
+}

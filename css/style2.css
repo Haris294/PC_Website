@@ -1,0 +1,68 @@
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header h1{
+  color: green;
+  padding-top: 6px;
+  text-align: center;
+  font-size: 50px;
+}
+tr{
+    margin-left: 50px;
+}
+form{
+    margin: 0 auto;
+    width: 300px;
+}
+#registration input[type="text"],input[type="password"],input[type="Email"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px; 
+}
+#registration textarea{
+    border:none;
+    border-bottom: 1px solid white;
+    background:transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;  
+}
+#registration{
+    font-weight: bold;
+    width: 500px;
+    height: 450px;
+    background: gray;
+    opacity: 0.8;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 40px 30px;
+}
+
+#registration input[type="submit"]{
+    padding-left: 20px;
+    padding-right: 20px;
+    border:none;
+    outline: none;
+    height: 40px;
+    background:chartreuse;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+#registration input[type="submit"]:hover{
+    cursor: pointer;
+    background:blue;
+    color: black; 
+    
+}
